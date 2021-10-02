@@ -1,0 +1,40 @@
+body {
+  background: #C8C8C8;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+header {
+  background: #A8AE4E;
+  font-size: 25px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: black;
+  font-weight: bold;
+}
+
+.personal-picture {
+
+}

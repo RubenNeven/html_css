@@ -1,0 +1,226 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/* NAVBAR */
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: sticky;
+  top: 0;
+}
+
+.navbar ul{
+  display: flex;
+  list-style: none;
+  margin: 20px 0px;
+}
+
+.navbar ul li {
+  font-family: Arial;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 25px;
+  transition: all .5s ease;
+}
+
+.navbar ul li a:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px white;
+}
+
+/* HOME SECTION */
+#home{
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 840px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#home::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 900px;
+  width: 100%;
+  z-index: -1;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 30%;
+  right: 10%;
+}
+
+.picture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.headings {
+  font-family: Arial;
+  font-size: 3rem;
+  text-align: center;
+  margin: 40px 0px;
+}
+
+.btn {
+  padding: 10px 35px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  outline: none;
+}
+
+.btn:hover{
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+  font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+/* ABOUT ME */
+
+#aboutMe{
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 840px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#aboutMe::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 900px;
+  width: 100%;
+  z-index: -1;
+}
+
+.aboutMe {
+  justify-content: center;
+  align-items: center;
+
+}
+
+.aboutMe ul {
+  list-style: none;
+  line-height: 35px;
+  font-family: Arial;
+}
+
+.generalInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 20%;
+  /* left: 5%; */
+}
+
+.hobbiesPictures {
+  display: flex;
+  flex-direction: column;
+  /* top: 10%; */
+  /* right: 5%; */
+}
+
+/* PROFESIONAL */
+#professional{
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 840px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#professional::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 900px;
+  width: 100%;
+  z-index: -1;
+}
+
+.experience{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+
+.experience ul {
+  list-style: none;
+  line-height: 35px;
+  font-family: Arial;
+}
+
+/* INTERESTS */
+
+#interests{
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 840px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#interests::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 900px;
+  width: 100%;
+  z-index: -1;
+}
